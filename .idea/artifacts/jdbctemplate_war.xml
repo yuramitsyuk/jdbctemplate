@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="jdbctemplate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jdbctemplate.war">
+      <element id="artifact" artifact-name="jdbctemplate:war exploded" />
+    </root>
+  </artifact>
+</component>
