@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b64efc-17ba-42b6-af43-a696c6f4d952" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\some projects\Spring-JDBC-Example\jdbctemplate\src\main\java\com\yuramitsyuk\jdbctemplate\HelloController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdbctemplate.iml" afterPath="$PROJECT_DIR$/jdbctemplate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jdbctemplate_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jdbctemplate_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jdbctemplate.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/User.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406269170417" ignored="false" />
-    <file path="/UserRepository.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406269397829" ignored="false" />
-    <file path="/UserRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406276783244" ignored="false" />
+    <file path="/User.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406299644829" ignored="false" />
+    <file path="/UserRepository.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406287167890" ignored="false" />
+    <file path="/UserRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406299460399" ignored="false" />
     <file path="/UserMapper.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406269669867" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406276977010" ignored="false" />
-    <file path="/UserController.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406271141246" ignored="false" />
+    <file path="/UserController.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406300726892" ignored="false" />
     <file path="/Dummy.txt" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406284479949" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,19 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="693" selection-end="693" vertical-scroll-proportion="-0.2762763">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+            <state line="35" column="57" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +89,7 @@
       <file leaf-file-name="UserRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+            <state line="12" column="17" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="51" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="47" column="73" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.23844732">
               <folding />
             </state>
           </provider>
@@ -120,48 +109,10 @@
       <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+            <state line="58" column="54" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="456" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="38" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="497" selection-end="497" vertical-scroll-proportion="-8.84">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -184,16 +135,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/schema.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -240,10 +191,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="122" />
-    <option name="y" value="11" />
-    <option name="width" value="1554" />
-    <option name="height" value="889" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -739,7 +690,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="11" width="1554" height="889" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -758,11 +709,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24262735" sideWeight="0.5383562" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24262735" sideWeight="0.5383562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3036193" sideWeight="0.5383562" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46164384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3036193" sideWeight="0.5383562" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39487725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -863,34 +814,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="456" selection-end="463" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="38" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.0">
+        <state line="29" column="55" selection-start="1431" selection-end="1431" vertical-scroll-proportion="1.4804804">
           <folding />
         </state>
       </provider>
@@ -906,30 +832,55 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="497" selection-end="497" vertical-scroll-proportion="-8.84">
+        <state line="13" column="35" selection-start="497" selection-end="497" vertical-scroll-proportion="0.6461988">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="51" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+        <state line="70" column="38" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.46321526">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+        <state line="13" column="42" selection-start="456" selection-end="463" vertical-scroll-proportion="0.5640327">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="693" selection-end="693" vertical-scroll-proportion="-0.2762763">
+        <state line="12" column="17" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="57" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="54" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="73" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.23844732">
           <folding />
         </state>
       </provider>

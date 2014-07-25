@@ -10,13 +10,13 @@ public interface UserRepository {
 
     public void setDataSource(DataSource ds);
 
-    public void create(User user);
+    public String create(User user);
 
     List<User> findAll();
 
     public User getUser(Integer id);
 
-    public void delete(Integer id);
+    public String delete(Integer id);
 
-    public void update(User user);
+    public String update(User user);
 }

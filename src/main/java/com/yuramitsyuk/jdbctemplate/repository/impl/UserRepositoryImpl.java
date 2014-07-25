@@ -4,7 +4,6 @@ package com.yuramitsyuk.jdbctemplate.repository.impl;
 import com.yuramitsyuk.jdbctemplate.entity.User;
 import com.yuramitsyuk.jdbctemplate.repository.UserRepository;
 import com.yuramitsyuk.jdbctemplate.repository.template.UserMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -25,29 +24,40 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public void create(User user) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public String create(User user) {
+        String sql = "insert into user (login, password) values (?, ?)";
+
+        jdbcTemplate.update( sql, user.getLogin(), user.getPassword());
+        return "Created Record Login = " + user.getLogin() + " Password = " + user.getPassword();
     }
 
     @Override
     public List<User> findAll() {
         String sql = "select * from user";
         List<User> users = jdbcTemplate.query(sql, new UserMapper());
-        return users;  //To change body of implemented methods use File | Settings | File Templates.
+        return users;
     }
 
     @Override
     public User getUser(Integer id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        String sql = "select * from user where id = ?";
+        User user = jdbcTemplate.queryForObject(sql,
+                new Object[]{id}, new UserMapper());
+        return user;
     }
 
     @Override
-    public void delete(Integer id) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public String delete(Integer id) {
+        String sql = "delete from user where id = ?";
+        jdbcTemplate.update(sql, id);
+        return  "Deleted Record with ID = " + id;
     }
 
     @Override
-    public void update(User user) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public String update(User user) {
+        String sql = "update user set login=?, password=? where id=?";
+        jdbcTemplate.update(sql, new Object[] {user.getLogin(), user.getPassword(), user.getId()});
+        return "Updated Record with ID = " + user.getId();
+
     }
 }
