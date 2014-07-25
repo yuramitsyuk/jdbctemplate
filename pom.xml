@@ -9,6 +9,8 @@
 
     <properties>
         <spring.version>3.2.0.RELEASE</spring.version>
+        <mysql.connector.verion>5.1.26</mysql.connector.verion>
+        <jackson>1.4.1</jackson>
     </properties>
 
     <dependencies>
@@ -55,6 +57,25 @@
             <artifactId>junit</artifactId>
             <version>4.8.2</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.verion}</version>
+        </dependency>
+
+        <!--Jackson-->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson}</version>
         </dependency>
     </dependencies>
 
