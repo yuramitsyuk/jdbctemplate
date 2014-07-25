@@ -1,0 +1,34 @@
+DROP DATABASE IF EXISTS jdbctemplate;
+CREATE DATABASE jdbctemplate;
+
+USE jdbctemplate;
+
+CREATE TABLE role (
+
+	id INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(10) UNIQUE NOT NULL,
+
+	PRIMARY KEY(id)
+
+);
+
+CREATE TABLE user (
+
+	id INT NOT NULL AUTO_INCREMENT,
+	login VARCHAR(30) UNIQUE NOT NULL,
+	password VARCHAR(15) NOT NULL,
+
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE user_role (
+
+	id INT NOT NULL AUTO_INCREMENT,
+	user_id INT NOT NULL,
+	role_id INT NOT NULL,
+
+	FOREIGN KEY (user_id) REFERENCES user(id),
+	FOREIGN KEY (role_id) REFERENCES role(id),
+	PRIMARY KEY (id)
+
+);
