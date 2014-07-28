@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/integration-module/integration-module.iml" filepath="$PROJECT_DIR$/integration-module/integration-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbctemplate.iml" filepath="$PROJECT_DIR$/jdbctemplate.iml" />
     </modules>
   </component>
