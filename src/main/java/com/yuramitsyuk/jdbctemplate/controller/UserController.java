@@ -10,11 +10,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
-import java.util.Map;
 
 @Controller
 @RequestMapping("/")
@@ -59,15 +57,14 @@ public class UserController {
     @RequestMapping(value = "/users/{userId}", method = RequestMethod.PUT, consumes = "application/json")
     @ResponseBody
     public String updateUser(@PathVariable("userId") Integer userId,
-                            @RequestBody String userData) {
+                            @RequestBody User userData) {
         if(logger.isDebugEnabled()){
             logger.debug("updateUser() method is executed!");
         }
         User user = new User();
         user.setId(userId);
-        String [] s = userData.split("&");
-        user.setLogin(s[0].substring(s[0].indexOf('=')+1));
-        user.setPassword(s[1].substring(s[1].indexOf('=')+1));
+        user.setLogin(userData.getLogin());
+        user.setPassword(userData.getPassword());
         return userRepository.update(user);
     }
 
@@ -80,16 +77,13 @@ public class UserController {
         return userRepository.delete(id);
     }
 
-    @RequestMapping(value = "/users", method = RequestMethod.POST)
+    @RequestMapping(value = "/users", method = RequestMethod.POST, consumes = "application/json")
     @ResponseBody
-    public String createUser(@RequestParam("userLogin") String userLogin,
-                      @RequestParam("userPassword") String userPassword) {
+    public String createUser(@RequestBody User user) {
+
         if(logger.isDebugEnabled()){
             logger.debug("createUser() method is executed!");
         }
-        User user = new User();
-        user.setLogin(userLogin);
-        user.setPassword(userPassword);
         return userRepository.create(user);
     }
 }
