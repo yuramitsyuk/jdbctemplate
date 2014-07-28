@@ -8,15 +8,15 @@ import java.util.List;
 
 public interface UserRepository {
 
-    public void setDataSource(DataSource ds);
+    void setDataSource(DataSource ds);
 
-    public String create(User user);
+    String create(User user);
 
     List<User> findAll();
 
-    public User getUser(Integer id);
+    User getUser(Integer id);
 
-    public String delete(Integer id);
+    String delete(Integer id);
 
-    public String update(User user);
+    String update(User user);
 }
