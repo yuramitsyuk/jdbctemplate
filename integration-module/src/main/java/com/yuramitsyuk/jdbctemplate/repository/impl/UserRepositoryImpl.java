@@ -9,6 +9,8 @@ import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
 import java.util.List;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 @Repository
 public class UserRepositoryImpl implements UserRepository {
@@ -16,6 +18,8 @@ public class UserRepositoryImpl implements UserRepository {
     private DataSource dataSource;
 
     private JdbcTemplate jdbcTemplate;
+
+    private final ResourceBundle resourceBundle = ResourceBundle.getBundle("queries_en", Locale.ENGLISH);
 
     @Override
     public void setDataSource(DataSource ds) {
@@ -25,38 +29,32 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public String create(User user) {
-        String sql = "insert into user (login, password) values (?, ?)";
-
-        jdbcTemplate.update( sql, user.getLogin(), user.getPassword());
+        jdbcTemplate.update(resourceBundle.getString("insert"), user.getLogin(), user.getPassword());
         return "Created Record Login = " + user.getLogin() + " Password = " + user.getPassword();
     }
 
     @Override
     public List<User> findAll() {
-        String sql = "select * from user";
-        List<User> users = jdbcTemplate.query(sql, new UserMapper());
+        List<User> users = jdbcTemplate.query(resourceBundle.getString("getAll"), new UserMapper());
         return users;
     }
 
     @Override
     public User getUser(Integer id) {
-        String sql = "select * from user where id = ?";
-        User user = jdbcTemplate.queryForObject(sql,
+        User user = jdbcTemplate.queryForObject(resourceBundle.getString("getOne"),
                 new Object[]{id}, new UserMapper());
         return user;
     }
 
     @Override
     public String delete(Integer id) {
-        String sql = "delete from user where id = ?";
-        jdbcTemplate.update(sql, id);
+        jdbcTemplate.update(resourceBundle.getString("deleteOne"), id);
         return  "Deleted Record with ID = " + id;
     }
 
     @Override
     public String update(User user) {
-        String sql = "update user set login=?, password=? where id=?";
-        jdbcTemplate.update(sql, new Object[] {user.getLogin(), user.getPassword(), user.getId()});
+        jdbcTemplate.update(resourceBundle.getString("update"), new Object[] {user.getLogin(), user.getPassword(), user.getId()});
         return "Updated Record with ID = " + user.getId();
 
     }
