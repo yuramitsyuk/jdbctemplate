@@ -19,7 +19,7 @@ public class UserRepositoryImpl implements UserRepository {
 
     private JdbcTemplate jdbcTemplate;
 
-    private final ResourceBundle resourceBundle = ResourceBundle.getBundle("queries_en", Locale.ENGLISH);
+    private final ResourceBundle resourceBundle = ResourceBundle.getBundle("queries_for_user_en", Locale.ENGLISH);
 
     @Override
     public void setDataSource(DataSource ds) {
