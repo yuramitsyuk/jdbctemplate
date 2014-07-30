@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b64efc-17ba-42b6-af43-a696c6f4d952" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/Role.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/integration-module.iml" afterPath="$PROJECT_DIR$/integration-module/integration-module.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdbctemplate.iml" afterPath="$PROJECT_DIR$/jdbctemplate.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties" afterPath="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jdbctemplate.iws" />
@@ -18,10 +14,10 @@
     <file path="/Dummy.txt" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406709189053" ignored="false" />
     <file path="/UserController.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406707606579" ignored="false" />
     <file path="/UserService.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706691194" ignored="false" />
-    <file path="/UserServiceImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706706652" ignored="false" />
+    <file path="/UserServiceImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406720535045" ignored="false" />
     <file path="/pom.xml" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406709322497" ignored="false" />
     <file path="/User.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406707557548" ignored="false" />
-    <file path="/fragment.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406709366822" ignored="false" />
+    <file path="/fragment.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406719921286" ignored="false" />
     <file path="/UserRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706628168" ignored="false" />
     <file path="/queries.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406551898786" ignored="false" />
     <file path="/queries_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406636856779" ignored="false" />
@@ -31,11 +27,11 @@
     <file path="/RoleRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406636775439" ignored="false" />
     <file path="/queries_for_role_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406636630785" ignored="false" />
     <file path="/RoleMapper.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406636713796" ignored="false" />
-    <file path="/UserRepositoryImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406648513944" ignored="false" />
-    <file path="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406648630248" ignored="false" />
+    <file path="/UserRepositoryImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406720299915" ignored="false" />
     <file path="/UserRepository.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706636520" ignored="false" />
     <file path="/queries_for_user_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706619021" ignored="false" />
-    <file path="/UserServiceImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406709753253" ignored="false" />
+    <file path="/UserServiceImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406718575937" ignored="false" />
+    <file path="/UserServiceImplMockitoTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406720623367" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
+            <state line="30" column="20" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +113,36 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+            <state line="19" column="48" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImplMockitoTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="52" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="49" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="77" selection-start="976" selection-end="976" vertical-scroll-proportion="0.4678899">
               <folding />
             </state>
           </provider>
@@ -126,7 +151,7 @@
       <file leaf-file-name="UserServiceImplTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
+            <state line="33" column="34" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +159,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-context.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="21" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-context.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/test-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="4" selection-start="1624" selection-end="1864" vertical-scroll-proportion="0.8082707">
+            <state line="25" column="29" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,22 +195,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/RoleRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties" />
         <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test-context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/Role.java" />
         <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTestMockito.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java" />
       </list>
     </option>
   </component>
@@ -631,8 +665,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.yuramitsyuk.jdbctemplate.service.impl" />
       <recent name="com.yuramitsyuk.jdbctemplate.repository.impl" />
+      <recent name="com.yuramitsyuk.jdbctemplate.service.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -653,7 +687,7 @@
       <recent name="D:\some projects\Spring-JDBC-Example\jdbctemplate\presentation-module\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImplTest">
+  <component name="RunManager" selected="JUnit.UserServiceImplMockitoTest">
     <configuration default="false" name="UserRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -694,6 +728,34 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceImplMockitoTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yuramitsyuk.jdbctemplate.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jdbctemplate" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl.UserServiceImplMockitoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1016,16 +1078,18 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UserRepositoryImplTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceImplMockitoTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplMockitoTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.UserRepositoryImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1065,7 +1129,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1087,7 +1151,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16556291" sideWeight="0.6093917" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3906083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3906083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1173,20 +1237,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_role_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="29" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
@@ -1194,23 +1244,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="413" selection-end="426" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1229,39 +1265,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="41" selection-start="818" selection-end="818" vertical-scroll-proportion="0.71926606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.65688074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="19" selection-start="1734" selection-end="1734" vertical-scroll-proportion="1.5908257">
           <folding />
         </state>
       </provider>
@@ -1282,7 +1288,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="1624" selection-end="1864" vertical-scroll-proportion="0.8082707">
+        <state line="25" column="29" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="21" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="49" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="20" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="77" selection-start="976" selection-end="976" vertical-scroll-proportion="0.4678899">
           <folding />
         </state>
       </provider>
