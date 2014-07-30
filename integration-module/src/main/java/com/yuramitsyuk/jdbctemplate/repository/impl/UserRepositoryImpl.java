@@ -41,20 +41,27 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public User getUser(Integer id) {
-        User user = jdbcTemplate.queryForObject(resourceBundle.getString("getOne"),
+        User user = jdbcTemplate.queryForObject(resourceBundle.getString("getOneById"),
                 new Object[]{id}, new UserMapper());
+        return user;
+    }
+
+    @Override
+    public User getUser(String login) {
+        User user = jdbcTemplate.queryForObject(resourceBundle.getString("getOneByLogin"),
+                new Object[]{login}, new UserMapper());
         return user;
     }
 
     @Override
     public String delete(Integer id) {
         jdbcTemplate.update(resourceBundle.getString("deleteOne"), id);
-        return  "Deleted Record with ID = " + id;
+        return "Deleted Record with ID = " + id;
     }
 
     @Override
     public String update(User user) {
-        jdbcTemplate.update(resourceBundle.getString("update"), new Object[] {user.getLogin(), user.getPassword(), user.getId()});
+        jdbcTemplate.update(resourceBundle.getString("update"), new Object[]{user.getLogin(), user.getPassword(), user.getId()});
         return "Updated Record with ID = " + user.getId();
 
     }

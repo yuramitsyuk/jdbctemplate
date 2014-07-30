@@ -16,6 +16,8 @@ public interface UserRepository {
 
     User getUser(Integer id);
 
+    User getUser(String login);
+
     String delete(Integer id);
 
     String update(User user);

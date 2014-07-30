@@ -33,6 +33,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User getUser(String login) {
+        return userRepository.getUser(login);
+    }
+
+    @Override
     public String delete(Integer id) {
         return userRepository.delete(id);
     }
