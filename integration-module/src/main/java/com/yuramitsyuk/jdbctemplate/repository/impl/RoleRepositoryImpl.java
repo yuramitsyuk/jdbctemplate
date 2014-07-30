@@ -1,12 +1,8 @@
 package com.yuramitsyuk.jdbctemplate.repository.impl;
 
-
 import com.yuramitsyuk.jdbctemplate.entity.Role;
-import com.yuramitsyuk.jdbctemplate.entity.User;
 import com.yuramitsyuk.jdbctemplate.repository.RoleRepository;
-import com.yuramitsyuk.jdbctemplate.repository.UserRepository;
 import com.yuramitsyuk.jdbctemplate.repository.template.RoleMapper;
-import com.yuramitsyuk.jdbctemplate.repository.template.UserMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -32,32 +28,39 @@ public class RoleRepositoryImpl implements RoleRepository {
 
     @Override
     public String create(Role role) {
-        jdbcTemplate.update(resourceBundle.getString("insert"), role.getName());
+        jdbcTemplate.update(resourceBundle.getString("insertRole"), role.getName());
         return "Created Record Name = " + role.getName();
     }
 
     @Override
     public List<Role> findAll() {
-        List<Role> roles = jdbcTemplate.query(resourceBundle.getString("getAll"), new RoleMapper());
+        List<Role> roles = jdbcTemplate.query(resourceBundle.getString("getAllRoles"), new RoleMapper());
         return roles;
     }
 
     @Override
     public Role getRole(Integer id) {
-        Role role = jdbcTemplate.queryForObject(resourceBundle.getString("getOne"),
+        Role role = jdbcTemplate.queryForObject(resourceBundle.getString("getOneRoleById"),
                 new Object[]{id}, new RoleMapper());
         return role;
     }
 
     @Override
+    public Role getRole(String name) {
+        Role role = jdbcTemplate.queryForObject(resourceBundle.getString("getOneRoleByName"),
+                new Object[]{name}, new RoleMapper());
+        return role;
+    }
+
+    @Override
     public String delete(Integer id) {
-        jdbcTemplate.update(resourceBundle.getString("deleteOne"), id);
-        return  "Deleted Record with ID = " + id;
+        jdbcTemplate.update(resourceBundle.getString("deleteOneRole"), id);
+        return "Deleted Record with ID = " + id;
     }
 
     @Override
     public String update(Role role) {
-        jdbcTemplate.update(resourceBundle.getString("update"), new Object[] {role.getName(), role.getId()});
+        jdbcTemplate.update(resourceBundle.getString("updateRole"), new Object[]{role.getName(), role.getId()});
         return "Updated Record with ID = " + role.getId();
 
     }

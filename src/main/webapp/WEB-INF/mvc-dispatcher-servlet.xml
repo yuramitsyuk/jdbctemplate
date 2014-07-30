@@ -8,7 +8,7 @@
 
     <context:component-scan base-package="com.yuramitsyuk.jdbctemplate"/>
 
-    <mvc:annotation-driven />
+    <mvc:annotation-driven/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
@@ -25,10 +25,20 @@
 
     <bean id="userRepository"
           class="com.yuramitsyuk.jdbctemplate.repository.impl.UserRepositoryImpl">
-        <property name="dataSource"  ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <tx:annotation-driven transaction-manager="transactionManager" />
+    <bean id="roleRepository"
+          class="com.yuramitsyuk.jdbctemplate.repository.impl.RoleRepositoryImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="userRoleRepository"
+          class="com.yuramitsyuk.jdbctemplate.repository.impl.UserRoleRepositoryImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>

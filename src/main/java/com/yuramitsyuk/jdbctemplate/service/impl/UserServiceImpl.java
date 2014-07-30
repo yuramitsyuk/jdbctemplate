@@ -1,7 +1,10 @@
 package com.yuramitsyuk.jdbctemplate.service.impl;
 
 import com.yuramitsyuk.jdbctemplate.entity.User;
+import com.yuramitsyuk.jdbctemplate.entity.UserRole;
+import com.yuramitsyuk.jdbctemplate.repository.RoleRepository;
 import com.yuramitsyuk.jdbctemplate.repository.UserRepository;
+import com.yuramitsyuk.jdbctemplate.repository.UserRoleRepository;
 import com.yuramitsyuk.jdbctemplate.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,16 +17,27 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
+    private final RoleRepository roleRepository;
+    private final UserRoleRepository userRoleRepository;
 
     @Autowired
-    public UserServiceImpl(UserRepository userRepository) {
+    public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository, UserRoleRepository userRoleRepository) {
         this.userRepository = userRepository;
+        this.roleRepository = roleRepository;
+        this.userRoleRepository = userRoleRepository;
     }
-
 
     @Override
     public String create(User user) {
-        return userRepository.create(user);
+        userRepository.create(user);
+        User savedUser = userRepository.getUser(user.getLogin());
+        if (user.getRole() != null) {
+            UserRole userRole = new UserRole();
+            userRole.setUserId(savedUser.getId());
+            userRole.setRoleId(roleRepository.getRole(user.getRole().getName()).getId());
+            userRoleRepository.create(userRole);
+        }
+        return "User Added";
     }
 
     @Override

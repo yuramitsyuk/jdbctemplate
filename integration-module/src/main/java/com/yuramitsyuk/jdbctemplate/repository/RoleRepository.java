@@ -15,6 +15,8 @@ public interface RoleRepository {
 
     Role getRole(Integer id);
 
+    Role getRole(String name);
+
     String delete(Integer id);
 
     String update(Role role);

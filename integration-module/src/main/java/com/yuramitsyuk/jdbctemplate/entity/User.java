@@ -1,8 +1,5 @@
 package com.yuramitsyuk.jdbctemplate.entity;
 
-
-import java.util.List;
-
 public class User {
 
     private Integer id;
@@ -45,6 +42,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User login = "+getLogin();
+        return "User login = " + getLogin() + "User password = " + getPassword() + "User Role = " + getRole();
     }
 }

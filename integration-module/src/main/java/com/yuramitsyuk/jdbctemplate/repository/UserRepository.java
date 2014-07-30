@@ -1,6 +1,5 @@
 package com.yuramitsyuk.jdbctemplate.repository;
 
-
 import com.yuramitsyuk.jdbctemplate.entity.User;
 
 import javax.sql.DataSource;

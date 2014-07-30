@@ -1,6 +1,5 @@
 package com.yuramitsyuk.jdbctemplate.entity;
 
-
 public class Role {
 
     private Integer id;
@@ -23,4 +22,8 @@ public class Role {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Role id = " + getId() + "Role name = " + getName();
+    }
 }
