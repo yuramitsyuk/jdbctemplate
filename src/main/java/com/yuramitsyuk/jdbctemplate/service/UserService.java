@@ -12,6 +12,8 @@ public interface UserService {
 
     User getUser(Integer id);
 
+    User getUser(String login);
+
     String delete(Integer id);
 
     String update(Integer id, User user);

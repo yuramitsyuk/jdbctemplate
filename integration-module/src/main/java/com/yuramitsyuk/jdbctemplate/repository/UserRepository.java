@@ -1,6 +1,5 @@
 package com.yuramitsyuk.jdbctemplate.repository;
 
-
 import com.yuramitsyuk.jdbctemplate.entity.User;
 
 import javax.sql.DataSource;
@@ -15,6 +14,8 @@ public interface UserRepository {
     List<User> findAll();
 
     User getUser(Integer id);
+
+    User getUser(String login);
 
     String delete(Integer id);
 

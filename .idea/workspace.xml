@@ -2,20 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b64efc-17ba-42b6-af43-a696c6f4d952" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/Role.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/Role.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/RoleMapper.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/RoleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/RoleRepository.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/RoleRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/RoleRepositoryImpl.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/RoleRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_role_en.properties" afterPath="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_role_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties" afterPath="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jdbctemplate.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406550695818" ignored="false" />
-    <file path="/UserController.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406542968497" ignored="false" />
-    <file path="/UserService.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406535720165" ignored="false" />
-    <file path="/UserServiceImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406535425442" ignored="false" />
-    <file path="/pom.xml" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406550735069" ignored="false" />
-    <file path="/User.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406542745528" ignored="false" />
-    <file path="/fragment.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406543603378" ignored="false" />
-    <file path="/UserRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406553826095" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406709189053" ignored="false" />
+    <file path="/UserController.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406723281927" ignored="false" />
+    <file path="/UserService.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706691194" ignored="false" />
+    <file path="/UserServiceImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406727023954" ignored="false" />
+    <file path="/pom.xml" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406709322497" ignored="false" />
+    <file path="/User.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406723231893" ignored="false" />
+    <file path="/fragment.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406726471754" ignored="false" />
+    <file path="/UserRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406727839014" ignored="false" />
     <file path="/queries.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406551898786" ignored="false" />
-    <file path="/queries_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406554042577" ignored="false" />
+    <file path="/queries_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406636856779" ignored="false" />
+    <file path="/Role.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406723213718" ignored="false" />
+    <file path="/UserMapper.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406641665104" ignored="false" />
+    <file path="/RoleRepository.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406722787166" ignored="false" />
+    <file path="/RoleRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406722887649" ignored="false" />
+    <file path="/queries_for_role_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406723071632" ignored="false" />
+    <file path="/RoleMapper.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406636713796" ignored="false" />
+    <file path="/UserRepositoryImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406720299915" ignored="false" />
+    <file path="/UserRepository.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406706636520" ignored="false" />
+    <file path="/queries_for_user_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406726192731" ignored="false" />
+    <file path="/UserServiceImplTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406718575937" ignored="false" />
+    <file path="/UserServiceImplMockitoTest.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406725811132" ignored="false" />
+    <file path="/UserRole.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406724687393" ignored="false" />
+    <file path="/UserRoleRepository.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406724273460" ignored="false" />
+    <file path="/UserRoleRepositoryImpl.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406724888129" ignored="false" />
+    <file path="/queries_for_userRole_en.properties" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406724388743" ignored="false" />
+    <file path="/UserRoleMapper.java" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406724729468" ignored="false" />
+    <file path="/mvc-dispatcher-servlet.xml" changelist="d9b64efc-17ba-42b6-af43-a696c6f4d952" time="1406727225945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +61,13 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,7 +104,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -76,55 +113,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="0" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queries_for_user_en.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="54" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2884" selection-end="2884" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="31" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="37" selection-start="1748" selection-end="1748" vertical-scroll-proportion="1.4375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queries_en.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_en.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="169" selection-end="175" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integration-module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,27 +145,67 @@
       <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="15" column="11" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="UserServiceImplMockitoTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="39" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="-0.13549618">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queries_for_userRole_en.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_userRole_en.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="38" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queries_for_role_en.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_role_en.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -175,22 +227,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" />
-        <option value="$PROJECT_DIR$/integration-module/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/presentation-module/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/presentation-module/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/integration-module/src/main/resources/queries.properties" />
-        <option value="$PROJECT_DIR$/integration-module/src/main/resources/queries_en.properties" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserCustomMapper.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/Role.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/UserRole.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/RoleRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRoleRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -282,7 +334,191 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="integration-module" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,10 +533,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="integration-module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,6 +630,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration-module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbctemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -431,6 +701,10 @@
               <option name="myItemId" value="jdbctemplate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -439,17 +713,19 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jdbctemplate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tender" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -458,7 +734,21 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuramitsyuk.jdbctemplate.repository.impl" />
+      <recent name="com.yuramitsyuk.jdbctemplate.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuramitsyuk.jdbctemplate.repository.template" />
+      <recent name="com.yuramitsyuk.jdbctemplate.repository.impl" />
+      <recent name="com.yuramitsyuk.jdbctemplate.repository" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\some projects\jdbctemplate\integration-module\src\main\resources" />
+      <recent name="D:\some projects\jdbctemplate\src\main\resources" />
       <recent name="D:\some projects\Spring-JDBC-Example\jdbctemplate\presentation-module\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -469,6 +759,90 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+    <configuration default="false" name="UserRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yuramitsyuk.jdbctemplate.repository.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jdbctemplate" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yuramitsyuk.jdbctemplate.repository.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yuramitsyuk.jdbctemplate.repository.impl.UserRepositoryImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yuramitsyuk.jdbctemplate.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jdbctemplate" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceImplMockitoTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yuramitsyuk.jdbctemplate.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jdbctemplate" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yuramitsyuk.jdbctemplate.service.impl.UserServiceImplMockitoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -775,10 +1149,20 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserRepositoryImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceImplMockitoTest" />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplMockitoTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserRepositoryImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -821,25 +1205,24 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.6093917" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.67022413" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1098234" sideWeight="0.60832447" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1098234" sideWeight="0.6093917" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16556291" sideWeight="0.60832447" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39167556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16556291" sideWeight="0.6093917" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3906083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -848,6 +1231,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -924,122 +1308,128 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="48" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/template/UserRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="1" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/RoleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="17" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="354" selection-end="354" vertical-scroll-proportion="0.53222835" />
+        <state line="5" column="41" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/UserRoleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.1875">
+        <state line="7" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp">
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_role_en.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-module/integration-module.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_userRole_en.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="31" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2884" selection-end="2884" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="169" selection-end="175" vertical-scroll-proportion="0.0">
+        <state line="6" column="38" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/integration-module/src/main/java/com/yuramitsyuk/jdbctemplate/repository/impl/UserRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="37" selection-start="1748" selection-end="1748" vertical-scroll-proportion="1.4375">
+        <state line="53" column="0" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-module/src/main/resources/queries_for_user_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="54" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuramitsyuk/jdbctemplate/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplMockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yuramitsyuk/jdbctemplate/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="-0.13549618">
           <folding />
         </state>
       </provider>
